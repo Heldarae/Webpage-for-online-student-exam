@@ -8,43 +8,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg
-            ">
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <ul class="navbar-nav">
-                <div class="dropdown-center">
-                    <li class="nav-item-dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Browse Courses
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-item">
-                                Computer Organization
-                            </li>
-                            <li class="dropdown-item">
-                                Web Programming
-                            </li>
-                            <li class="dropdown-item">
-                                Database Managements
-                            </li>
-                        </ul>
-                    </li>
-                </div>
-                <li class="nav-item">
-                    <a class="nav-item nav-link" href="examsforcourses-student.html">Exams for Courses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-item nav-link" href="examcreation-student.html">Exam Creation</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-item nav-link" href="examlist-student.html">Exam List</a>
-                </li>
-            </ul>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </nav>
+        <?php
+            include 'navbarstudent.php';
+        ?>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-2 sidebar">
@@ -66,13 +32,13 @@
                     </div>
                     <br/>
                     <br/>
-                    <a href="examsforcourses-student.html">Exams for Courses</a>
+                    <a href="examsforcourses-student.php">Exams for Courses</a>
                     <br/>
                     <br/>
-                    <a href="examcreation-student.html">Exam Creation</a>
+                    <a href="examcreation-student.php">Exam Creation</a>
                     <br/>
                     <br/>
-                    <a href="examlist-student.html">Exam List</a>
+                    <a href="examlist-student.php">Exam List</a>
                     <br/>
                     <br/>
                 </div>
